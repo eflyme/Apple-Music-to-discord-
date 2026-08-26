@@ -1,0 +1,12 @@
+{
+  "name": "apple-music-discord",
+  "version": "1.0.0",
+  "description": "Apple Music now-playing bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
