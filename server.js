@@ -12,16 +12,16 @@ let nowPlaying = {
 
 app.get("/", (req, res) => {
   res.json({
-    status: "online",
+    status: "playing",
     nowPlaying
   });
 });
 
-app.post("/now-playing", (req, res) => {
+app.post("🧸", (req, res) => {
   const { title,} = req.body;
 
-  nowPlaying = {
-    title: title || null,
+  🧸 = {
+    title: title || null
   };
 
   res.json({
