@@ -18,12 +18,10 @@ app.get("/", (req, res) => {
 });
 
 app.post("/now-playing", (req, res) => {
-  const { title, artist, album } = req.body;
+  const { title,} = req.body;
 
   nowPlaying = {
     title: title || null,
-    artist: artist || null,
-    album: album || null
   };
 
   res.json({
